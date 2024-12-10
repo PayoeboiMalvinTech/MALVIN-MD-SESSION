@@ -77,24 +77,24 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*┏━━━━━━━━━━━━━━*
-*┃MALVIN-MD SESSION IS*
+                        let desc = `**┏━━━━━━━━━━━━━━*
+*┃KANGO-MD  SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || My Web =* coming soon
+*❶ || My Web =* https://t.me/official_kango2
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* https://wa.me/+263714757857
+*❸ || Owner =* https://wa.me/+233509977126
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* https://github.com/kingmalvn/MALVIN-MD 
+*❹ || Repo =* https://github.com/OfficialHectorManuel/Kango-MD 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* https://www.youtube.com/@malvintech2 
+*❺ || You Tube =* https://youtube.com/@official_manuel 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ©ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ*`; 
+> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝐇𝐞𝐜𝐭𝐨𝐫 𝐌𝐚𝐧𝐮𝐞𝐥 ©*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
